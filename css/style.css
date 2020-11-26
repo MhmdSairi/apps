@@ -1,0 +1,263 @@
+html, body {
+  height: 100%;
+  font-family: 'Alata', sans-serif;
+
+ background: #fff !important;
+  
+  color: #333; 
+}
+
+button:focus {outline:0;}
+a:hover{
+text-decoration: none !important;
+
+
+}
+h1,h2,h3,h4,h5,h6,p{
+   font-family: 'Alata', sans-serif !important;
+
+}
+textarea:focus, input:focus{
+    outline: none !important;
+    border: 1px solid #ddd !important;
+}
+
+
+#menu-top nav{
+ background-color: transparent;
+ font-family: 'Alata', sans-serif;
+
+}
+
+#menu-top a{
+  font-family: 'Alata', sans-serif;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  transition: all .25s ease;
+
+}
+.logo{
+      font-size: 23px;
+    font-weight: bold;
+    color: #583bf7;
+        margin-top: 15px;
+}
+#menu-top ul li a:hover{
+  color: #583bf7;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  transition: all .25s ease;
+
+}
+
+.signup button{
+margin-top: 15px;
+    margin-left: 20px;
+    background: #583bf7;
+    color: #fff;
+    border-radius: 23px;
+  }
+.signup button:hover{
+background-color: #e1e2f5;
+
+ color: #583bf7 !important;
+ -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+   
+}
+
+#hq-slideshow{
+      min-height: 700px;
+          padding: 0;
+}
+#hq-slideshow .uk-card{
+      min-height: 700px;
+}
+
+#hq-slideshow .uk-card-media-right{
+      height: 700px;
+      text-align: right;
+}
+#hq-slideshow .uk-card-media-right img{
+  height: 100% !important;
+  width: auto  !important;
+} 
+
+#hq-slideshow .uk-card-title{
+      font-size: 34px;
+    font-weight: bold;
+    color: #636363;
+    margin: 40px 0;
+}
+
+#hq-slideshow p{
+  width: 600px;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.started{
+font-weight: normal !important;
+    background: #583bf7;
+    color: #fff !important;
+    padding: 4px 40px !important;
+    border-radius: 33px !important;
+    margin-top: 40px !important;
+
+    -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.started:hover{
+background-color: #e1e2f5;
+
+ color: #583bf7 !important;
+ -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+
+}
+
+.menu-mobile-btn{
+  display: none !important;
+      background: transparent !important;
+    font-size: 24px !important;
+    padding: 0 12px 0 0 !important;
+    color: #583bf7 !important;
+    margin-top: -5px !important;
+}
+
+.menu-mobile a{
+ color: #fff !important;
+}
+.menu-mobile ul{
+      margin-top: 40px;
+}
+
+
+.copyright{
+  text-align: center; 
+    padding: 20px;
+    font-size: 16px;
+}
+.copyright a{
+  color: #583bf7;
+  font-weight: bold;
+}
+.copyright a:hover{
+  color: #583bf7;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+  #hq-slideshow p {
+    width:400px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+#hq-slideshow{
+      min-height: 500px;
+    
+}
+#hq-slideshow .uk-card{
+      min-height: 500px;
+}
+
+#hq-slideshow .uk-card-media-right{
+  height: 500px;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+#hq-slideshow .uk-card-title {
+    font-size: 26px;
+
+}
+#hq-slideshow p {
+   width: 100%;
+
+}
+
+#hq-slideshow{
+      min-height: 500px;
+    
+}
+#hq-slideshow .uk-card{
+      min-height: 500px;
+}
+
+#hq-slideshow .uk-card-media-right{
+  height: 500px;
+}
+
+
+.signup button {
+    padding: 0px 19px;
+    border: 2px solid #583bf7 !important;
+    margin-left: 8px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#menu-top .uk-navbar-nav{
+  display: none;
+}
+.logo {
+    font-size: 22px;
+  }
+.menu-mobile-btn{
+  display: block !important;
+}
+.signup button {
+    padding: 0px 13px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+#hq-slideshow .uk-card-body{
+  text-align: center;
+}
+
+
+#hq-slideshow p {
+  width: auto;
+}
+#hq-slideshow{
+      min-height: 300px;
+    
+}
+#hq-slideshow .uk-card{
+      min-height: 300px;
+}
+#hq-slideshow .uk-card-media-right{
+  height: 300px;
+  text-align: center;
+}
+
+
+#hq-slideshow .uk-card-title {
+    font-size: 34px;
+    margin: 0 0 30px 0;
+}
+
+.started {
+
+    padding: 2px 33px !important;
+
+}
+
+}
